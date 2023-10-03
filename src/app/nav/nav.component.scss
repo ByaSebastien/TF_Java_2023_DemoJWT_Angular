@@ -1,0 +1,18 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    color: chartreuse;
+    background-color: purple;
+    justify-content: space-around;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+a {
+    color: chartreuse;
+    text-decoration: none;
+}
+
+a:visited {
+    color: chartreuse;
+}

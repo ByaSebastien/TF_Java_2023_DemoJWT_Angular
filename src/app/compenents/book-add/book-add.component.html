@@ -1,0 +1,5 @@
+<form [formGroup]="fg" (submit)="onSubmit()">
+    <input type="text" formControlName="title" placeholder="title">
+    <textarea formControlName="description" id="" cols="30" rows="10" placeholder="description"></textarea>
+    <input type="submit" value="Create">
+</form>

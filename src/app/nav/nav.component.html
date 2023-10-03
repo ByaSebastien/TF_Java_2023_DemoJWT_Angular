@@ -1,0 +1,8 @@
+<nav>
+    <ul>
+        <li *ngFor="let link of links; let i = index">
+            <a [routerLink]="link.url">{{link.title}}</a>
+        </li>
+        <li *ngIf="logged" (click)="logout()">{{currentUser?.email}}</li>
+    </ul>
+</nav>
